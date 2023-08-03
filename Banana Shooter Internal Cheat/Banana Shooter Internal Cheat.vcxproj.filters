@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resources\Utility">
+      <UniqueIdentifier>{8b64d025-6cd3-4d08-91cb-45f3e03f720a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\SDK">
+      <UniqueIdentifier>{9542847a-53e7-48ff-92a7-9eb8e19ca061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Console">
+      <UniqueIdentifier>{be5168fa-0134-4648-bb44-ec87006c1e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Hooks">
+      <UniqueIdentifier>{c75672aa-8217-4053-bb9f-f575d852d6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Gui">
+      <UniqueIdentifier>{a99f2c4e-d72e-4532-a577-00742e8f29b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{55831464-f423-4fa0-a62a-1307b4630cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\MinHook">
+      <UniqueIdentifier>{684c28a1-4dc0-49e0-85a0-37092c71a509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\MinHook\hde">
+      <UniqueIdentifier>{f2a97fd9-0fb1-473d-90dd-eaabf65c7f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\ImGui">
+      <UniqueIdentifier>{d6d9297a-33a1-4a0b-8444-dd20d157cbf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Hacks">
+      <UniqueIdentifier>{f8d9c4f3-c14e-43b8-b6e2-d188e89a021a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MinHook\hde\hde32.c">
+      <Filter>Header Files\External\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde64.c">
+      <Filter>Header Files\External\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>Header Files\External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>Header Files\External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>Header Files\External\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\CVectors.cpp">
+      <Filter>Resources\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console\CConsole.cpp">
+      <Filter>Resources\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\CHooks.cpp">
+      <Filter>Resources\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\CGui.cpp">
+      <Filter>Resources\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\CMenu.cpp">
+      <Filter>Resources\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\CEsp.cpp">
+      <Filter>Resources\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks\CAimbot.cpp">
+      <Filter>Resources\Hacks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MinHook\hde\hde32.h">
+      <Filter>Header Files\External\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde64.h">
+      <Filter>Header Files\External\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\pstdint.h">
+      <Filter>Header Files\External\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table32.h">
+      <Filter>Header Files\External\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table64.h">
+      <Filter>Header Files\External\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>Header Files\External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>Header Files\External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>Header Files\External\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Header Files\External\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Classes.h">
+      <Filter>Resources\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Offsets.h">
+      <Filter>Resources\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\CVectors.h">
+      <Filter>Resources\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Globals.h">
+      <Filter>Resources\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Console\CConsole.h">
+      <Filter>Resources\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\CHooks.h">
+      <Filter>Resources\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\CGui.h">
+      <Filter>Resources\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\CMenu.h">
+      <Filter>Resources\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\il2cpp.h">
+      <Filter>Resources\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\CEsp.h">
+      <Filter>Resources\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks\CAimbot.h">
+      <Filter>Resources\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Configs.h">
+      <Filter>Resources\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
